@@ -1,0 +1,77 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+
+body {
+  background-color: bisque;
+}
+
+h1, h2, h5 {
+  color:forestgreen;
+}
+
+h1, h3, h4, h5, input, p {
+  margin-left: 10px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+ h2 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  color: #333333;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: lighter
+  
+}
+
+.recipe {
+  display: flex;
+  margin-left: 10px;
+}
+
+.measure,
+.ingredient {
+  list-style-type: none; /* Removes bullet points from lists */
+  padding: 0;
+  /* Adjust spacing between lists */
+}
+
+.measure li,
+.ingredient li {
+  margin-bottom: 5px; /* Add vertical spacing between list items */
+  /* Add some content to your list items if needed */
+  width: 100px; /* Example width for illustration */
+  height: 20px; /* Example height for illustration */
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
